@@ -13,17 +13,13 @@ development:
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 production:
-  adapter: postgresql
-  encoding: unicode
   database: nata_production
-  pool: 5
-  username: nata
-  password: 1234
+  adapter: postgresql
+  host: localhost
+  password: 123
 
 test:
-  adapter: postgresql
-  encoding: unicode
   database: nata_test
-  pool: 5
-  username: nata
-  password: 1234
+  adapter: postgresql
+  host: localhost
+  password: 123
