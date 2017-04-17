@@ -54,3 +54,5 @@ end
 # gem 'debugger', group: [:development, :test]
 
 # rails generate scaffold User name:string email:string
+
+ruby "2.0.0"
