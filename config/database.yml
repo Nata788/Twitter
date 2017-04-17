@@ -18,7 +18,7 @@ production:
   database: nata_production
   pool: 5
   username: nata
-  password: 123
+  password: 1234
 
 test:
   adapter: postgresql
@@ -26,4 +26,4 @@ test:
   database: nata_test
   pool: 5
   username: nata
-  password: 123
+  password: 1234
